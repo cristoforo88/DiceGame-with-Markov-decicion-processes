@@ -9,9 +9,19 @@ Created on Thu Aug 4 22:01:48 2022
 
 import numpy as np
 from dice_game import DiceGame
-
-
 from abc import ABC, abstractmethod
+
+
+"""
+This code defines an abstract base class called DiceGameAgent that inherits from the ABC class, 
+which stands for Abstract Base Class. The DiceGameAgent class has one constructor method __init__ that takes 
+one argument game, and one abstract method play that takes one argument state.
+The purpose of an abstract base class is to define a common interface that its subclasses must implement.
+In this case, any subclass of DiceGameAgent must implement a play method that takes a state argument. 
+The play method is left unimplemented in the DiceGameAgent 
+class using the pass statement, indicating that it is up to the subclasses to implement this method.
+
+"""
 
 
 class DiceGameAgent(ABC):
@@ -144,19 +154,6 @@ for v in policy.values():
 
 print(f"\n{average}")
         
-        
-        
-
-        
-        
-    
-
-
-
-
-
-
-
 # There should be exactly 56 states
 assert(len(policy.items()) == 56)
 
