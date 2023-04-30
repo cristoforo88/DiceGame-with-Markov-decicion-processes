@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Aug  4 22:01:48 2022
+Created on Thu Aug 4 22:01:48 2022
 
-@author: crist
+@author: Cristoforo Grasso
 """
 
 #https://github.com/DMells/DiceGame/blob/main/dicegame.ipynb
